@@ -6,6 +6,7 @@ public class CalculatorMetod {
         int result = first + second;
         System.out.println(result);
     }
+
     public static void main(String[] args) {
         CalculatorMetod.plus(100, 500);
         CalculatorMetod.plus(4, 2);
