@@ -16,10 +16,11 @@ public class Peremennie {
         char gender = 'М';
         float high = 1.9F;
         short house = 15000;
-        double bacteria = 10000000.99;
-        double cosmos = 384000;
+        double bacteria = 1.2e+7;
+        double cosmos = 3.84e+5;
         boolean wpermit = true;
         long filesize = 1024;
-
+        System.out.println(bacteria);
+        System.out.println(cosmos);
     }
 }
