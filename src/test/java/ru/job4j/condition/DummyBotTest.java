@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class DummyBotTest {
-
+    @Test
     public void whenGreetBot() {
         String in = "Hi, Bot.";
         String result = DummyBot.answer(in);
@@ -13,13 +13,15 @@ class DummyBotTest {
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
     public void whenByeBot() {
         String in = "Bye.";
         String result = DummyBot.answer(in);
-        String expected = "See ypu later.";
+        String expected = "See you later";
         assertThat(result).isEqualTo(expected);
     }
 
+    @Test
     public void whenUnknownBot() {
         String in = "Can you add two plus two?";
         String result = DummyBot.answer(in);
